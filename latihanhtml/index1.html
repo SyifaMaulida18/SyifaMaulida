@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Bootcamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome Website!!</h1>
+        <nav>        
+            <ul>
+                <li><a href="#Perkenalan">Tentang Saya</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#asal">Asal</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Nama: <br>Syifa Maulida<br><br>TTL:<br>18 April 2004<br><br></p>
+        <aside></aside>
+
+        <div id="content">
+            <section id="Perkenalan">
+                <h2>Tentang Saya</h2>
+                <p>Saya Syifa Maulida tempat tanggal lahir Desa Suliliran baru 18 April 2004.<br>Saya berusia 19 Tahun.</p>
+            </section>
+            <article>
+                <section id="pendidikan">
+                    <h2>Pendidikan</h2>
+                    <ol>
+                        <li>sekarang berkuliah di Institut Teknologi Kalimantan</li>
+                    </ol>
+                </section>
+            </article>
+            <section id="asal">
+                <article>
+                    <h2>Asal</h2>
+                    <p>Asal saya berasal dari Desa Suliliran baru Pasir Belengkong</p>
+                </article>
+            </section>
+            <form onsubmit="submitform()">
+                <label for="nama">Nama</label>
+                <input required type="text" id="nama">
+                <br><br>
+                <label for="email">Email</label>
+                <input required type="email" id="email">
+                <br><br>
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan"></textarea>
+                <br><br>
+                <input class="Kirim" type="submit" value="Kirim Pesan">
+            </form>
+            <br>
+        </div>
+    </main>
+    <footer>
+        <br>
+        <p>Ini tugas Syifa</p>
+        <br>
+        <p id="copyright">Syifa Maulida</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
